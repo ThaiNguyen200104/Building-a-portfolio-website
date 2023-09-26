@@ -1,14 +1,14 @@
 :root {
-  --clr-dark: #191a1b;
-  --clr-light: #fafafa;
-  --clr-slate400: #b7c1c2;
-  --clr-slate600: #6b7274;
-  --clr-slate800: #464a4c;
+  --clr-dark: #143f6B;
+  --clr-light: #f6e7d8;
+  --clr-slate400: #f68989;
+  --clr-slate600: #C65D7B;
+  --clr-slate800: #874356;
   --clr-rose: #f44336;
-  --clr-indigo: #3f51b5;
+  --clr-indigo: #f6f54d;
 
   /* rose rgb(244, 67, 54) */
-  /* indigo rgb(63, 81, 181) */
+  /* indigo rgb(246, 245, 77) */
 
   /* sizes */
   --size-xxs: 0.5rem;
