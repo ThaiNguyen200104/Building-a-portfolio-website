@@ -4,18 +4,18 @@
 
 .work__title {
     font-size: var(--size-2xl);
-    color: var(--clr-light);
+    color    : var(--clr-light);
 }
 
 .work__description {
     max-width: 60ch;
     font-size: var(--size-sm);
-    color: var(--clr-slate600);
-    margin: 1rem auto;
+    color    : var(--clr-slate600);
+    margin   : 1rem auto;
 }
 
 .work__project-title {
-    font-size: var(--size-base);
+    font-size    : var(--size-base);
     margin-bottom: 1rem;
 }
 
@@ -24,19 +24,19 @@
 }
 
 .work__img-wrapper::after {
-    content: '';
-    background-color: rgb(246, 245, 77, 0.4);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    transition: background-color 0.3s;
+    content         : '';
+    background-color: rgba(24, 61, 61, 0.4);
+    width           : 100%;
+    height          : 100%;
+    position        : absolute;
+    top             : 0;
+    left            : 0;
+    z-index         : 1;
+    transition      : background-color 0.3s;
 }
 
 .work__img-wrapper:hover::after {
-    background-color: rgb(246, 245, 77, 0.3);
+    background-color: rgba(24, 61, 61, 0.1);
 }
 
 .work__project:not(:last-child) {
@@ -45,13 +45,13 @@
 
 .work__project-description1 {
     font-size: var(--size-sm);
-    color: var(--clr-slate600);
-    margin: 1rem 0;
+    color    : var(--clr-slate600);
+    margin   : 1rem 0;
 }
 
 .work__project-description2 {
-    font-size: var(--size-sm);
-    color: var(--clr-slate400);
+    font-size    : var(--size-sm);
+    color        : var(--clr-slate400);
     margin-bottom: 1rem;
 }
 
@@ -68,27 +68,27 @@
     .work__title {
         font-size: var(--size-3xl);
     }
-    
+
     .work__description {
         font-size: var(--size-base);
-        margin: 1.5rem auto;
+        margin   : 1.5rem auto;
     }
 
     .work__project-title {
-        font-size: var(--size-lg);
+        font-size    : var(--size-lg);
         margin-bottom: 1.5rem;
     }
 
     .work__project-description1 {
         font-size: var(--size-base);
-        margin: 1.5rem 0;
+        margin   : 1.5rem 0;
     }
-    
+
     .work__project-description2 {
-        font-size: var(--size-base);
+        font-size    : var(--size-base);
         margin-bottom: 1.5rem;
     }
-    
+
     .work__project-btn {
         font-size: var(--size-base);
     }
@@ -97,14 +97,15 @@
 /* sm */
 @media (min-width: 640px) {
     .work__container {
-        display: grid;
+        display              : grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        'image1 content1'
-        'content2 image2'
-        'image3 content3'
-        'content4 image4';
-        place-items: center; /* This is the short-hand for justify-content and align-items */
+        grid-template-areas  :
+            'image1 content1'
+            'content2 image2'
+            'image3 content3'
+            'content4 image4';
+        place-items: center;
+        /* This is the short-hand for justify-content and align-items */
     }
 
     .work__image1 {
@@ -149,14 +150,14 @@
 
     .work__project-description1 {
         font-size: var(--size-sm);
-        margin: 1em 0;
+        margin   : 1em 0;
     }
-    
+
     .work__project-description2 {
-        font-size: var(--size-sm);
+        font-size    : var(--size-sm);
         margin-bottom: 1em;
     }
-    
+
     .work__project-btn {
         font-size: var(--size-xs);
     }
@@ -166,7 +167,7 @@
     }
 
     .work__project-subtitle {
-        display: block;
+        display  : block;
         font-size: var(--size-base);
     }
 }
@@ -195,7 +196,7 @@
     .work__title {
         font-size: var(--size-4xl);
     }
-    
+
     .work__description {
         font-size: var(--size-lg);
     }
@@ -222,10 +223,10 @@
     .work__title {
         font-size: var(--size-5xl);
     }
-    
+
     .work__description {
         font-size: var(--size-xl);
-        margin: 2rem auto;
+        margin   : 2rem auto;
     }
 
     .work__project-description1 {
@@ -245,7 +246,7 @@
     }
 
     .work__container {
-        width: 80%;
+        width : 80%;
         margin: 0 auto;
     }
 }

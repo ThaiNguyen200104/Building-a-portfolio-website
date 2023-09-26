@@ -21,6 +21,10 @@
     color: var(--clr-slate600);
 }
 
+.about__description a {
+    text-decoration: none;
+}
+
 .about__hr {
     border-color: var(--clr-slate600);
 }
