@@ -36,7 +36,7 @@
 }
 
 .mobile-nav__link-line {
-    border       : 1px solid var(--clr-slate800);
+    border       : 1px solid var(--clr-strong);
     padding-right: 1.5em;
 }
 
